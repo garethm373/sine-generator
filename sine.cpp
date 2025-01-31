@@ -57,14 +57,7 @@ int main(){
     }else{
         std::cout << "Error creating file, please close file.\n"; 
     }
-    
-    Py_Initialize();
 
-        FILE *fp = fopen("plot.py", "r");
-        PyRun_SimpleFile(fp, "plot.py");
-        
-
-    Py_Finalize();
    
     return 0;
 }
