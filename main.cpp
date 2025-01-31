@@ -1,7 +1,6 @@
 #include <vector>
 #include <iostream>
 #include <fstream>
-#include </Users/garethmontanarello/anaconda3/pkgs/python-3.12.7-h99e199e_0/include/python3.12/Python.h>
 
 
 class Wave{
